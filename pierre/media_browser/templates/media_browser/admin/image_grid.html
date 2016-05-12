@@ -1,0 +1,32 @@
+{%load thumbnail%}
+<table id="images">
+{%for image_row in images%}
+<tr>{%for image in image_row%}
+    {%if image.src%}
+    <td class="image">
+    <a class="use-image image-detail" href="{{image.href}}" id="image_{{image.id}}">
+        <img src="{%thumbnail image.image 150x150 crop upscale%}" width="150" height="150" alt="{{image.caption}}">
+        {%include 'media_browser/admin/image_info_dict.html'%}   
+    </a>
+    {%if not is_chooser_view%}
+    <br/>{{image.title}}<br/><br/>
+    <a class="" href="{%url media_browser_admin:image_template image.id%}">Set Display Properties</a> &raquo;<br/>
+    <a href="{%url media_browser_admin:image_resize image.id%}">Resize or Crop</a> &raquo;
+    {%endif%}
+    </td>
+    {%endif%}
+{%endfor%}<tr>    
+{%empty%}<tr><td class="image empty">No images found.</td></tr>
+{%endfor%}
+</table>
+<script src="{{MEDIA_URL}}{{CKEDITOR_PATH}}jquery.qtip.js" type="text/javascript"></script>
+{%if not is_chooser_view%}
+<script type="text/javascript">
+var MB = new MediaBrowser()
+MB.Grid.init();
+</script>
+{%else%}
+<script type="text/javascript">
+
+</script>
+{%endif%}

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/125/trunk/pierre/media_browser/templates/media_browser/admin
+END
+image_info_dict.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/15/trunk/pierre/media_browser/templates/media_browser/admin/image_info_dict.html
+END
+image_resize.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/95/trunk/pierre/media_browser/templates/media_browser/admin/image_resize.html
+END
+image_chooser.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/91/trunk/pierre/media_browser/templates/media_browser/admin/image_chooser.html
+END
+image_search.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/15/trunk/pierre/media_browser/templates/media_browser/admin/image_search.html
+END
+image_grid.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/125/trunk/pierre/media_browser/templates/media_browser/admin/image_grid.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/92/trunk/pierre/media_browser/templates/media_browser/admin/base.html
+END
+image_template.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/95/trunk/pierre/media_browser/templates/media_browser/admin/image_template.html
+END
+image_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/93/trunk/pierre/media_browser/templates/media_browser/admin/image_list.html
+END

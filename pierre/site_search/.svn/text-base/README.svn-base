@@ -1,0 +1,12 @@
+=REQUIREMENTS=
+
+Django 1.1
+Python 2.4 or higher
+==RDBMS==
+MySQL (MyISAM only)
+Postgres
+(Coming soon: Oracle, SQL Server)
+
+This application works by leveraging the full text search capabilities of 
+the RDBMS that Django supports. It handles indexing and searching of models, 
+and can be added to an existing Django project easily.

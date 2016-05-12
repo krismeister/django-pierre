@@ -1,0 +1,129 @@
+10
+
+dir
+125
+http://django-pierre.googlecode.com/svn/trunk/pierre/media_browser/media/scripts/ckeditor/jquery.ui/development-bundle/demos
+http://django-pierre.googlecode.com/svn
+
+
+
+2010-01-28T21:00:47.906572Z
+33
+james.m.stevenson
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0ea97be4-c407-11de-8b01-0f61d55110ad
+
+show
+dir
+
+toggle
+dir
+
+removeClass
+dir
+
+images
+dir
+
+toggleClass
+dir
+
+switchClass
+dir
+
+hide
+dir
+
+index.html
+file
+
+
+
+
+2016-02-17T04:16:44.619137Z
+c0d1ed019b578f0415caa7f556d3be45
+2010-01-28T21:00:47.906572Z
+33
+james.m.stevenson
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9129
+
+effect
+dir
+
+animate
+dir
+
+addClass
+dir
+
+demos.css
+file
+
+
+
+
+2016-02-17T04:16:44.619137Z
+2e2ec04700af4ac5681a956cfe405c47
+2010-01-28T21:00:47.906572Z
+33
+james.m.stevenson
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14338
+
+dialog
+dir
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/pierre/site_search/postgresql_backend
+END
+signal_handlers.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/pierre/site_search/postgresql_backend/signal_handlers.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/pierre/site_search/postgresql_backend/__init__.py
+END
+model.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/pierre/site_search/postgresql_backend/model.py
+END

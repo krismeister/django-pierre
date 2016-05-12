@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/105/trunk/pierre/media_browser/media/scripts/ckeditor
+END
+contents.css
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/24/trunk/pierre/media_browser/media/scripts/ckeditor/contents.css
+END
+LICENSE.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/24/trunk/pierre/media_browser/media/scripts/ckeditor/LICENSE.html
+END
+jquery.qtip.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/34/trunk/pierre/media_browser/media/scripts/ckeditor/jquery.qtip.js
+END
+INSTALL.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/24/trunk/pierre/media_browser/media/scripts/ckeditor/INSTALL.html
+END
+CHANGES.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/24/trunk/pierre/media_browser/media/scripts/ckeditor/CHANGES.html
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/24/trunk/pierre/media_browser/media/scripts/ckeditor/.htaccess
+END
+media_browser.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/70/trunk/pierre/media_browser/media/scripts/ckeditor/media_browser.js
+END
+ckeditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/74/trunk/pierre/media_browser/media/scripts/ckeditor/ckeditor.js
+END
+image_chooser.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/40/trunk/pierre/media_browser/media/scripts/ckeditor/image_chooser.js
+END
+ckeditor_source.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/24/trunk/pierre/media_browser/media/scripts/ckeditor/ckeditor_source.js
+END
+config.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/24/trunk/pierre/media_browser/media/scripts/ckeditor/config.js
+END
+ckeditor_basic.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/24/trunk/pierre/media_browser/media/scripts/ckeditor/ckeditor_basic.js
+END
+ckeditor_basic_source.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/24/trunk/pierre/media_browser/media/scripts/ckeditor/ckeditor_basic_source.js
+END
+ckeditor.pack
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/24/trunk/pierre/media_browser/media/scripts/ckeditor/ckeditor.pack
+END

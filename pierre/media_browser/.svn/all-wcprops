@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/125/trunk/pierre/media_browser
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/123/trunk/pierre/media_browser/views.py
+END
+admin_urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/37/trunk/pierre/media_browser/admin_urls.py
+END
+ck_palettes.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/102/trunk/pierre/media_browser/ck_palettes.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/7/trunk/pierre/media_browser/__init__.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/125/trunk/pierre/media_browser/utils.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/7/trunk/pierre/media_browser/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/37/trunk/pierre/media_browser/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/71/trunk/pierre/media_browser/urls.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/105/trunk/pierre/media_browser/forms.py
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/124/trunk/pierre/media_browser/admin.py
+END

@@ -1,0 +1,20 @@
+{%spaceless%}
+{%load thumbnail%}
+{%ifnotequal template.position 'inline'%}
+<div class="image-container" 
+    class="{{template.display}}" 
+    style="
+    {%ifequal template.position 'float'%}float: {{template.display}}; width: {{width}}px;
+    {%else%}text-align: center;
+    {%endifequal%}">
+{%endifnotequal%}
+{%if template.action%}
+<a href="{{full_image_url}}" {%ifequal template.action 'tab'%} target="_blank"{%endifequal%}{%ifequal template.action 'lightbox'%} class="lightbox"{%endifequal%} >
+{%endif%} 
+{%thumbnail image size crop upscale as thumb%}   
+<img src="{{root_rel_media_url}}{{thumb.relative_url}}" width="{{thumb.width}}" height="{{thumb.height}}" title="{{title}}"/>
+{%if template.action%}</a>{%endif%}
+{%if template.show_caption%}<p class="caption">{{caption}}</p>{%endif%}
+{%if template.show_credit%}<p class="credit">{{credit}}</p>{%endif%}
+{%ifnotequal template.position 'inline'%}</div>{%endifnotequal%}
+{%endspaceless%}

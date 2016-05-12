@@ -1,0 +1,38 @@
+<style type="text/css">
+.{{field_name}} label { 
+    margin-bottom: 2px;
+    float: none; 
+}
+.inline-related .aligned label {
+    float: none;
+    padding-bottom: 5px;
+}
+
+#dialog { overflow: hidden; }
+</style>
+<script type="text/javascript">
+
+</script>
+<div id="{{field_name}}_dialog">
+     <iframe class="modalIframe" width="100%" height="100%"
+        marginWidth="0" marginHeight="0" frameBorder="0" scrolling="auto"
+        title="Dialog Title">Your browser does not support iframes.</iframe>
+</div>
+{{field}}
+<script type="text/javascript">
+var GLOSSARY_PREFIX = "{{GLOSSARY_PREFIX}}"
+var {{field_var_name}}_CKeditor = new CKEDITOR.replace('id_{{field_name}}', {
+    customConfig : '',
+    {{options}}
+    toolbar: [
+        {{pallete}}
+        {%if additional_plugins_js%}, 
+        {{additional_plugins_js}}
+        {%endif%}
+    ]    
+});
+{{field_var_name}}_CKeditor.BasePath = "{{basepath}}";
+{{field_var_name}}_Browser = new MediaBrowser();
+{{field_var_name}}_Browser.Editor.init("{%url media_browser_admin:image_list%}", "{{field_name}}_dialog");
+{{field_var_name}}_CKeditor.MediaBrowser = {{field_var_name}}_Browser;
+</script>

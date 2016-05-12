@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/pierre/site_search/mysql_backend
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/pierre/site_search/mysql_backend/__init__.py
+END
+model.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/pierre/site_search/mysql_backend/model.py
+END
+signal_handlers.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/pierre/site_search/mysql_backend/signal_handlers.py
+END

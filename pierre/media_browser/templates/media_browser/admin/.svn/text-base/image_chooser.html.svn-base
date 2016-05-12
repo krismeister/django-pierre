@@ -1,0 +1,32 @@
+{%extends 'media_browser/admin/base.html'%}
+{%block title%}Image Browser{%endblock%}
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+     Choose an Image
+</div>
+{% endblock %}
+{%block browser%}
+<h2>Choose an Image</h2>
+<ul class="object-tools">
+    <li>
+        <a class="viewsitelink" href="{%url media_browser_admin:image_search%}">Find image</a>            
+    </li>
+    <li>
+        <a class="addlink" href="{%url admin:media_browser_image_add%}">Add image</a>
+    </li>    
+</ul>
+<script type="text/javascript">
+// Open tab to add new image:  
+$(".object-tools .addlink").click(function (evt) {
+    evt.preventDefault();
+    var newWindow = window.open($(this).attr('href'), '_blank');
+    newWindow.focus();
+});
+</script>
+{% include 'media_browser/admin/image_grid.html'%}
+<script type="text/javascript" src="{{MEDIA_URL}}js/ckeditor/image_chooser.js"></script>
+<script type="text/javascript">
+    IC = new ImageChooser();
+    IC.List.init();
+</script>
+{% endblock %}

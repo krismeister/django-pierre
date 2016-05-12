@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/pierre/site_search/psycopg2_backend
+END
+signal_handlers.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/pierre/site_search/psycopg2_backend/signal_handlers.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/pierre/site_search/psycopg2_backend/__init__.py
+END
+model.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/pierre/site_search/psycopg2_backend/model.py
+END
